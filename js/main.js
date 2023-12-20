@@ -32,10 +32,12 @@ window.addEventListener("resize", function(event) {
   }
 })
 
+// 아직 준비되지 못한 페이지
 function prepare(){
   alert('준비 중 입니다.');
 }
 
+// main home으로 가는 함수
 function go_home(){
   location.href="main.html";
 }
